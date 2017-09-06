@@ -1,0 +1,29 @@
+body {
+  position: relative;
+  font-family: OpenSansRegular, Arial, sans-serif;
+  font-size: 14px;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+  .clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+  .wrap {
+    display: flex;
+    justify-content: center;
+  }
