@@ -6,7 +6,6 @@
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
-  <link rel="stylesheet" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -21,7 +20,24 @@
     </nav>
   </section>
   <section class="content">
+    <section class="header">
+      <ul class="header__breadcrumbs-list">
+        <li><a class="header__breadcrumbs-item" href="#">Customers<i class="fa fa-chevron-right header__chevron" aria-hidden="true"></i></a></li>
+        <li><a class="header__breadcrumbs-item header__breadcrumbs-item--active" href="#">Max Jones</a></li>
+      </ul>
+      <div class="header__search">
+        <input type="text" class="header__input" value="search"><i class="fa fa-search fa-lg header__search-icon" aria-hidden="true"></i>
+      </div>
+      <div class="header__messages">
+        <a href="#"><i class="fa fa-envelope fa-lg header__envelope" aria-hidden="true"><span class="header__span">1</span></i></a>
+        <a href="#"><i class="fa fa-bell fa-lg header__bell" aria-hidden="true"><span class="header__span">4</span></i></a>
+      </div>
+      <div class="header__support">
+        <img src="img/women.png" alt="women">
+        <a href="#" class="header__link">Hello Lauren <i class="fa fa-chevron-down fa-lg" aria-hidden="true"></i></a>
 
+      </div>
+    </section>
   </section>
   <script src="js/libs.min.js"></script>
   <script src="js/common.js"></script>
