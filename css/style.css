@@ -2789,3 +2789,110 @@ img {
 
 .header__messages {
   margin: 10px 30px 0; }
+
+.user {
+  margin: 80px 35px 90px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
+.user__img {
+  width: 89px;
+  height: 89px; }
+
+.user__info {
+  margin-left: 40px;
+  width: 100%; }
+
+.user__name {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #f1f1f1;
+  margin-bottom: 30px; }
+
+.user__initials p {
+  font-family: 'OpenSansBold', Arial, sans-serif;
+  font-size: 20px;
+  color: #4f4f4f;
+  margin: 0 0 5px; }
+
+.user__initials span {
+  font-family: 'OpenSansBold', Arial, sans-serif;
+  font-size: 15px;
+  color: #999999; }
+
+.user__social h3 {
+  margin: 0 0 15px;
+  font-size: 13px;
+  color: #999999; }
+
+.user__social a {
+  margin-right: 16px; }
+
+.user__social a:last-child {
+  margin-right: 0; }
+
+.fa-linkedin {
+  color: #1985bd; }
+
+.fa-facebook-official {
+  color: #064c76; }
+
+.fa-twitter {
+  color: #2caae1; }
+
+.user__contacts {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.user__contacts-item h3 {
+  font-family: 'OpenSansBold', Arial, sans-serif;
+  font-size: 13px;
+  color: #999999;
+  text-transform: uppercase;
+  margin: 0 0 5px; }
+
+.user__contacts-item p {
+  font-family: 'OpenSansBold', Arial, sans-serif;
+  font-size: 15px;
+  color: #442a9d; }
+
+.user__contacts-but {
+  width: 159px;
+  height: 36px;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  outline: none;
+  border: none;
+  background-color: #303841;
+  color: #ffc12d;
+  font-family: 'OpenSansBold', Arial, sans-serif;
+  font-size: 14px;
+  cursor: pointer; }
+
+.user__info-edit {
+  border-bottom: 1px solid #d4d4d4; }
+
+.fa-pencil {
+  color: #d4d4d4; }
+
+.user__input {
+  border: none;
+  outline: none; }
+
+.user__info-edit {
+  display: none; }
