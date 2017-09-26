@@ -2790,6 +2790,170 @@ img {
 .header__messages {
   margin: 10px 30px 0; }
 
+.nav-content {
+  margin-left: 35px; }
+
+.nav-content__item {
+  margin-right: 54px;
+  font-family: 'OpenSansBold', Arial, sans-serif;
+  font-size: 14px;
+  color: #303841;
+  text-transform: uppercase; }
+
+.nav-content__item--active {
+  position: relative; }
+
+.nav-content__item--active::before {
+  content: '';
+  position: absolute;
+  width: 105px;
+  height: 6px;
+  background-color: #442a9d;
+  -webkit-border-radius: 20px;
+          border-radius: 20px;
+  top: 45px;
+  left: -16px; }
+
+.overview {
+  margin-top: 33px;
+  background-color: #ededed;
+  padding: 62px 36px; }
+
+.overview__graf {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.overview__graf-item1 {
+  width: 410px;
+  height: 273px;
+  background-color: #fff;
+  -webkit-border-radius: 7px;
+          border-radius: 7px; }
+
+.overview__graf-item2 {
+  width: 407px;
+  height: 126px;
+  background-color: #fff;
+  -webkit-border-radius: 7px;
+          border-radius: 7px; }
+
+.overview__graf-item2:first-child {
+  margin-bottom: 21px; }
+
+.overview__happines {
+  background: #fff url("../img/happy.png") no-repeat 50% 50%; }
+  .overview__happines h3 {
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 160px; }
+  .overview__happines p {
+    text-align: center; }
+  .overview__happines span {
+    font-size: 15px;
+    color: #4f4f4f; }
+
+.overview__progress {
+  margin-left: 39px;
+  margin-right: 10px;
+  width: 298px;
+  height: 11px;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  background-color: #ededed;
+  border: none; }
+
+progress::-webkit-progress-bar {
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  background-color: #ededed; }
+
+progress::-webkit-progress-value {
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  background-color: #ffc12d; }
+
+progress::-moz-progress-bar {
+  border-radius: 5px;
+  background-color: #ffc12d; }
+
+.overview__turnover {
+  background: #fff url("../img/bg.png") no-repeat; }
+  .overview__turnover h3 {
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 18px;
+    text-align: center; }
+  .overview__turnover p {
+    text-align: center;
+    font-size: 45px;
+    font-family: 'OpenSansBold', Arial, sans-serif;
+    color: #4f4f4f; }
+
+.overview__graf-item2 {
+  overflow: hidden; }
+  .overview__graf-item2 h3 {
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 6px; }
+  .overview__graf-item2 p {
+    margin: 0;
+    text-align: center;
+    font-size: 37px;
+    font-family: 'OpenSansBold', Arial, sans-serif;
+    color: #4f4f4f; }
+
+.overview__color1 {
+  color: #ffc12d; }
+
+.overview__color2 {
+  color: #442a9d; }
+
+.overview__square {
+  float: left;
+  width: 140px;
+  height: 100%;
+  background: #ffc12d url("../img/kub.png") no-repeat 50% 50%; }
+
+.overview__square2 {
+  float: left;
+  width: 140px;
+  height: 100%;
+  background: #442a9d url("../img/stopka.png") no-repeat 50% 50%; }
+
+.overview__statistic {
+  height: 124px;
+  background-color: #fff;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 30px;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  text-transform: uppercase;
+  color: #4f4f4f;
+  font-size: 18px; }
+  .overview__statistic h3 {
+    font-weight: normal; }
+  .overview__statistic p {
+    text-align: center;
+    font-size: 37px;
+    font-family: 'OpenSansBold', Arial, sans-serif;
+    margin: 0; }
+
 .user {
   margin: 80px 35px 90px;
   display: -webkit-box;

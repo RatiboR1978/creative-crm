@@ -1,0 +1,152 @@
+.overview {
+  margin-top: 33px;
+  background-color: #ededed;
+  padding: 62px 36px;
+}
+
+.overview__graf {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.overview__graf-item1 {
+  width: 410px;
+  height: 273px;
+  background-color: #fff;
+  border-radius: 7px;
+}
+
+.overview__graf-item2 {
+  width: 407px;
+  height: 126px;
+  background-color: #fff;
+  border-radius: 7px;
+}
+
+.overview__graf-item2:first-child {
+  margin-bottom: 21px;
+}
+
+.overview__happines {
+  background: #fff url("../img/happy.png") no-repeat 50% 50%;
+  h3 {
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 160px;
+  }
+  p {
+    text-align: center;
+  }
+  span {
+    font-size: 15px;
+    color: #4f4f4f;
+  }
+}
+
+.overview__progress {
+  margin-left: 39px;
+  margin-right: 10px;
+  width: 298px;
+  height: 11px;
+  border-radius: 5px;
+  background-color: #ededed;
+  border: none;
+}
+
+progress::-webkit-progress-bar {
+  border-radius: 5px;
+  background-color: #ededed;
+}
+
+progress::-webkit-progress-value {
+  border-radius: 5px;
+  background-color: #ffc12d;
+}
+
+
+progress::-moz-progress-bar {
+  border-radius: 5px;
+  background-color: #ffc12d;
+}
+
+.overview__turnover {
+  background: #fff url("../img/bg.png") no-repeat;
+  h3 {
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 18px;
+    text-align: center;
+  }
+  p {
+    text-align: center;
+    font-size: 45px;
+    font-family: 'OpenSansBold', Arial, sans-serif;
+    color: #4f4f4f;
+  }
+}
+
+.overview__graf-item2 {
+  overflow: hidden;
+  h3 {
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 6px;
+  }
+  p {
+    margin: 0;
+    text-align: center;
+    font-size: 37px;
+    font-family: 'OpenSansBold', Arial, sans-serif;
+    color: #4f4f4f;
+  }
+}
+
+.overview__color1 {
+  color: #ffc12d;
+}
+
+.overview__color2 {
+  color: #442a9d;
+}
+
+
+.overview__square {
+  float: left;
+  width: 140px;
+  height: 100%;
+  background: #ffc12d url("../img/kub.png") no-repeat 50% 50%;
+}
+
+.overview__square2 {
+  float: left;
+  width: 140px;
+  height: 100%;
+  background: #442a9d url("../img/stopka.png") no-repeat 50% 50%;
+}
+
+.overview__statistic {
+  height: 124px;
+  background-color: #fff;
+  border-radius: 5px;
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-around;
+  text-transform: uppercase;
+  color: #4f4f4f;
+  font-size: 18px;
+  h3 {
+    font-weight: normal;
+  }
+  p {
+    text-align: center;
+    font-size: 37px;
+    font-family: 'OpenSansBold', Arial, sans-serif;
+    margin: 0;
+  }
+
+}

@@ -1,0 +1,26 @@
+.nav-content {
+  margin-left: 35px;
+}
+
+.nav-content__item {
+  margin-right: 54px;
+  font-family: 'OpenSansBold', Arial, sans-serif;
+  font-size: 14px;
+  color: #303841;
+  text-transform: uppercase;
+}
+
+.nav-content__item--active {
+  position: relative;
+}
+
+.nav-content__item--active::before {
+  content: '';
+  position: absolute;
+  width: 105px;
+  height: 6px;
+  background-color: #442a9d;
+  border-radius: 20px;
+  top: 45px;
+  left: -16px;
+}
