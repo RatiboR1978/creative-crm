@@ -2629,7 +2629,7 @@ img {
 .nav {
   max-width: 319px;
   background-color: #303841;
-  height: 100vh; }
+  min-height: 100vh; }
   .nav h1 {
     padding-left: 25px;
     font-size: 28px;
@@ -2954,6 +2954,58 @@ progress::-moz-progress-bar {
     font-family: 'OpenSansBold', Arial, sans-serif;
     margin: 0; }
 
+.overview__statistic-div {
+  position: relative; }
+
+.overview__statistic-div:before {
+  position: absolute;
+  content: '';
+  width: 2px;
+  height: 104px;
+  background-color: #ededed;
+  top: 11px;
+  right: -123px; }
+
+.overview__activity h2 {
+  font-size: 18px;
+  font-family: 'OpenSansBold', Arial, sans-serif;
+  color: #4f4f4f;
+  margin: 70px 0 37px; }
+
+.overview__activity-item {
+  background-color: #fff;
+  padding: 15px 24px;
+  margin-bottom: 15px;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  font-size: 16px;
+  color: #4f4f4f; }
+  .overview__activity-item p {
+    margin-left: -490px; }
+  .overview__activity-item img {
+    float: left;
+    width: 38px;
+    height: 38px;
+    margin-top: 5px;
+    margin-right: 60px; }
+  .overview__activity-item time {
+    font-size: 14px;
+    color: #999999;
+    float: right;
+    margin-top: 18px; }
+
+.overview__activity-line {
+  position: relative; }
+
+.overview__activity-line:after {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 2px;
+  background-color: #cbcbcb;
+  top: -26px;
+  left: 0; }
+
 .user {
   margin: 80px 35px 90px;
   display: -webkit-box;
@@ -3047,6 +3099,9 @@ progress::-moz-progress-bar {
   font-family: 'OpenSansBold', Arial, sans-serif;
   font-size: 14px;
   cursor: pointer; }
+
+.user__contacts-but:hover {
+  color: white; }
 
 .user__info-edit {
   border-bottom: 1px solid #d4d4d4; }
