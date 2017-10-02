@@ -3075,17 +3075,18 @@ progress::-moz-progress-bar {
       -ms-flex-pack: justify;
           justify-content: space-between; }
 
-.user__contacts-item h3 {
-  font-family: 'OpenSansBold', Arial, sans-serif;
-  font-size: 13px;
-  color: #999999;
-  text-transform: uppercase;
-  margin: 0 0 5px; }
-
-.user__contacts-item p {
-  font-family: 'OpenSansBold', Arial, sans-serif;
-  font-size: 15px;
-  color: #442a9d; }
+.user__contacts-item {
+  width: 200px; }
+  .user__contacts-item h3 {
+    font-family: 'OpenSansBold', Arial, sans-serif;
+    font-size: 13px;
+    color: #999999;
+    text-transform: uppercase;
+    margin: 0 0 5px; }
+  .user__contacts-item p {
+    font-family: 'OpenSansBold', Arial, sans-serif;
+    font-size: 15px;
+    color: #442a9d; }
 
 .user__contacts-but {
   width: 159px;
@@ -3104,14 +3105,13 @@ progress::-moz-progress-bar {
   color: white; }
 
 .user__info-edit {
-  border-bottom: 1px solid #d4d4d4; }
+  border-bottom: 1px solid #d4d4d4;
+  display: none; }
 
 .fa-pencil {
   color: #d4d4d4; }
 
 .user__input {
+  margin-top: 10px;
   border: none;
   outline: none; }
-
-.user__info-edit {
-  display: none; }
